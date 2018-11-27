@@ -22,7 +22,7 @@ cloudencode是一个分布式并行转码服务
 * 如果所有的ts分片都转码完毕，就启动合并程序，将多个ts小文件合成完整mp4。
 
 ## 1.2. 如何编译和运行
-编译方法: go build encoder.go
+编译方法: go build encoder.go <br/>
 运行: ./encoder -c conf/encode.json -f logs/encode.log
 
 ## 1.3. 使用说明
